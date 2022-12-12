@@ -37,7 +37,7 @@ variable "virtual_network_name" {
 # Network
 variable "subnet_name" {
   type = string
-  description = "Virtual Network Name @brownfield#Azure:VirtualNetwork(dependsOn: virtual_network_name)"
+  description = "Subnet Name @brownfield#Azure:Subnet(dependsOn: virtual_network_name)"
 }
 
 variable "address_space" {
